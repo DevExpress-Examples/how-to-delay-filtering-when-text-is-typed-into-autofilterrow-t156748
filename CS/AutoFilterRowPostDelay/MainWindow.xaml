@@ -1,0 +1,16 @@
+﻿<Window xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"  x:Class="AutoFilterRowPostDelay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:AutoFilterRowPostDelay"
+        Title="MainWindow" Height="570" Width="433">
+    <Grid>
+        <dxg:GridControl Name="grid" ItemsSource="{x:Static local:Data.DataList}" AutoGenerateColumns="AddNew">
+            <dxg:GridControl.View>
+                <dxg:TableView ShowAutoFilterRow="True" x:Name="view"/>
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="FirstName" local:PostDelayHelper.DelayTime="2000"/>
+            </dxg:GridControl.Columns>
+        </dxg:GridControl>
+    </Grid>
+</Window>
