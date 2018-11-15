@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Data.cs](./CS/AutoFilterRowPostDelay/Data.cs) (VB: [Data.vb](./VB/AutoFilterRowPostDelay/Data.vb))
+* [MainWindow.xaml](./CS/AutoFilterRowPostDelay/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/AutoFilterRowPostDelay/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/AutoFilterRowPostDelay/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/AutoFilterRowPostDelay/MainWindow.xaml.vb))
+* **[PostDelayHelper.cs](./CS/AutoFilterRowPostDelay/PostDelayHelper.cs) (VB: [PostDelayHelper.vb](./VB/AutoFilterRowPostDelay/PostDelayHelper.vb))**
+<!-- default file list end -->
 # How to delay filtering when text is typed into AutoFilterRow
 
 
